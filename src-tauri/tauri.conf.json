@@ -1,0 +1,44 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Wellers",
+  "mainBinaryName": "Wellers",
+  "version": "1.0.0",
+  "identifier": "com.winvestour.reseller.desktop",
+  "build": {
+    "frontendDist": "https://www.winvestour.com/?app=reseller"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "label": "main",
+        "title": "Wellers",
+        "width": 1280,
+        "height": 820,
+        "minWidth": 900,
+        "minHeight": 600,
+        "center": true,
+        "decorations": false,
+        "backgroundColor": "#059669",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 WinvestourApp/reseller WinvestourDesktop/1.0"
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis", "msi", "deb", "rpm", "appimage"],
+    "publisher": "Winvestour LLC",
+    "copyright": "© 2026 Winvestour LLC",
+    "shortDescription": "Wellers - Bayilik Programi",
+    "longDescription": "Wellers: Winvestour bayilik (reseller) basvuru ve komisyon paneli.",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.ico"
+    ]
+  }
+}
