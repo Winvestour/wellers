@@ -3,7 +3,7 @@
 # Kaynak monorepo'daki desktop/ ile senkron tutulur (6 Agu 2026).
 [package]
 name = "wellers-desktop"
-version = "1.0.3"
+version = "1.0.4"
 description = "Wellers - Bayilik Programi (Winvestour)"
 authors = ["Winvestour LLC"]
 edition = "2021"
